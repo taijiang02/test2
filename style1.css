@@ -1,0 +1,114 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: url('bg123.jpg') center bottom /cover fixed no-repeat yellow;
+    font-family: 'Î¢Ü›ÕýºÚów';
+    /*background-color: yellow;
+  background-image: url('bg123.jpg');
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;*/
+}
+
+.container {
+    width: 1170px;
+    margin: 40px auto;
+    padding: 0px 30px;
+    box-sizing: border-box;
+}
+
+header#Home {
+    background: rgba(230, 235, 224, 0.5);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+hgroup {
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 5em;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px #000, 3px 3px 20px yellow, 3px 3px 40px red;
+    padding: 20px 0px;
+}
+
+h2 {
+    font-weight: normal;
+    margin: 10px auto 20px;
+}
+
+h3 {
+    border: 1px solid #9ae8ed;
+    border-left: 8px solid #9ae8ed;
+    background: #ffffff;
+    padding: 4px 10px;
+    display: inline-block;
+    margin: 30px auto 10px;
+}
+
+h4 {
+    margin: 20px auto 10px;
+}
+
+nav>ul {
+    list-style: none;
+    background: rgba(107, 140, 229, 0.5);
+    overflow: hidden;
+}
+
+nav>ul>li {
+    float: left;
+}
+
+nav>ul>li>a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav>ul>li>a:hover {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    background: rgb(0, 53, 99);
+}
+
+.row {
+    background: rgba(255, 255, 255, 0.8);
+    display: table;
+}
+
+article {
+    display: table-cell;
+    width: 80%;
+    vertical-align: top;
+    padding: 40px;
+}
+
+aside {
+    display: table-cell;
+    width: 20%;
+    background: rgba(169, 162, 211, 0.5);
+}
+
+p {
+    line-height: 2;
+}
+
+footer {
+    padding: 60px 0px;
+    text-align: center;
+    color: #000;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    background: rgba(92, 164, 169, 0.9);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
